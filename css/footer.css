@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+/* FOOTER SETTING */
+#new_ft {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-top: 1px solid #000;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px 95px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media all and (max-width: 1441px) {
+    #new_ft .ft_con {
+        padding: 30px 50px;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media all and (max-width: 1281px) {
+    #new_ft .ft_con {
+        padding: 30px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_ft .ft_con {
+        padding: 20px 15px;
+    }
+}
+
+/* FOOTER SETTING END */
+
+/* FOOTER */
+#new_ft .ft_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#new_ft .ft_txt .ft_logo {
+    width: 192px;
+    height: 40px;
+    position: relative;
+}
+
+#new_ft .ft_txt .ft_logo > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/ft_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#new_ft .ft_txt .ft_stat {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_txt .ft_stat .info_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+#new_ft .ft_txt .ft_stat .info_txt > a {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    position: relative;
+    color: #808080;
+}
+
+#new_ft .ft_txt .ft_stat .info_txt > a:hover {
+    color: #0066da;
+}
+
+#new_ft .ft_txt .ft_stat .info_txt > a::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    position: absolute;
+    background-color: #000;
+    right: -25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#new_ft .ft_txt .ft_stat .info_txt > a:last-of-type::after {
+    content: none;
+}
+
+#new_ft .ft_txt .ft_stat .stat_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 25px;
+}
+
+#new_ft .ft_txt .ft_stat .stat_txt > p {
+    word-break: keep-all;
+    text-align: center;
+}
+
+#new_ft .ft_txt .ft_stat .stat_txt > p,
+#new_ft .ft_txt .ft_stat .stat_txt > p > span {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: #808080;
+}
+
+#new_ft .ft_txt .ft_stat .stat_txt > p > span {
+    font-weight: 600;
+}
+
+#new_ft .copyright_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .copyright_txt > p {
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: #808080;
+}
+
+@media all and (max-width: 1281px) {
+    #new_ft .ft_txt {
+        gap: 50px;
+    }
+
+    #new_ft .ft_txt .ft_logo {
+        width: 150px;
+        height: 30px;
+    }
+
+    #new_ft .copyright_txt {
+        width: 100%;
+        text-align: right;
+    }
+}
+
+@media all and (max-width: 1025px) {
+    #new_ft .ft_txt {
+        width: 100%;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #new_ft .ft_txt .ft_logo {
+        margin: 0 auto;
+    }
+
+    #new_ft .ft_txt .ft_stat {
+        width: 100%;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt,
+    #new_ft .ft_txt .ft_stat .stat_txt {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt {
+        gap: 30px;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt > a::after {
+        right: -15px;
+    }
+
+    #new_ft .copyright_txt {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 885px) {
+    #new_ft .ft_txt .ft_stat .info_txt,
+    #new_ft .ft_txt .ft_stat .stat_txt {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt {
+        gap: 10px 30px;
+    }
+
+    #new_ft .ft_txt .ft_stat .stat_txt {
+        gap: 10px 25px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_ft .ft_txt .ft_logo {
+        width: 130px;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt {
+        gap: 10px 15px;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt > a {
+        font-size: 0.8125rem;
+    }
+
+    #new_ft .ft_txt .ft_stat .info_txt > a::after {
+        right: -7.5px;
+    }
+
+    #new_ft .ft_txt .ft_stat .stat_txt > p, #new_ft .ft_txt .ft_stat .stat_txt > p > span {
+        font-size: 0.75rem;
+    }
+
+    #new_ft .copyright_txt > p {
+        font-size: 0.75rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    #new_ft .ft_txt .ft_logo {
+        width: 100px;
+    }
+}
+
+/* FOOTER END */

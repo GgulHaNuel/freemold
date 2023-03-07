@@ -1,0 +1,540 @@
+@charset "UTF-8";
+
+/* HEADER SETTING */
+#new_hd {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_hd .hd_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_hd .hd_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+/* HEADER SETTING END */
+
+/* HEADER TOP */
+#new_hd .hd_top {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px 95px;
+    background-color: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#new_hd .hd_top .search_layout {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#new_hd .hd_top .search_layout .top_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_hd .hd_top .search_layout .top_txt > p {
+    font-size: 0.875rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+#new_hd .hd_top .search_layout .all_search_box {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_hd .hd_top .hd_logo {
+    width: 192px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#new_hd .hd_top .hd_logo > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+#new_hd .hd_top .login_box {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 60px;
+}
+
+#new_hd .hd_top .login_box > li {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_hd .hd_top .login_box > li::after {
+    content: '';
+    width: 1px;
+    height: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: -30px;
+}
+
+#new_hd .hd_top .login_box > li:last-of-type::after {
+    content: none;
+}
+
+#new_hd .hd_top .login_box > li > a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#new_hd .hd_top .login_box > li > a:hover {
+    color: #0066da;
+}
+
+#new_hd .hd_top .mo_bars {
+    width: 36px;
+    height: 28px;
+    position: relative;
+    z-index: 5;
+    display: none;
+}
+
+#new_hd .hd_top .mo_bars > button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: transparent;
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+#new_hd .hd_top .mo_bars > button > span {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+@media all and (max-width: 1441px) {
+    #new_hd .hd_top {
+        padding: 20px 50px;
+    }
+}
+
+@media all and (max-width: 1281px) {
+    #new_hd .hd_top .search_layout {
+        display: none;
+    }
+
+    #new_hd .hd_top .hd_logo {
+        position: relative;
+        top: auto;
+        left: auto;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+    }
+
+    #new_hd .hd_top .login_box {
+        display: none;
+    }
+
+    #new_hd .hd_top .mo_bars {
+        display: block;
+    }
+}
+
+@media all and (max-width: 1281px) {
+    #new_hd .hd_top {
+        padding: 20px 30px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_hd .hd_top {
+        padding: 20px 15px;
+    }
+
+    #new_hd .hd_top .hd_logo {
+        width: 130px;
+        height: 30px;
+    }
+
+    #new_hd .hd_top .mo_bars {
+        width: 30px;
+        height: 27px;
+    }
+
+    #new_hd .hd_top .mo_bars > button {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: inherit;
+    }
+}
+
+@media all and (max-width: 376px) {
+    #new_hd .hd_top .hd_logo {
+        width: 120px;
+        height: 25px;
+    }
+
+    #new_hd .hd_top .mo_bars {
+        width: 25px;
+        height: 24px;
+    }
+}
+
+/* HEADER TOP END */
+
+/* HEADER NAV */
+#new_hd .hd_nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+
+#new_hd .hd_nav_box {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    padding: 15px 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -moz-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+}
+#new_hd .hd_nav_box > li {
+    width: -webkit-calc(100% / 5);
+    width: -moz-calc(100% / 5);
+    width: calc(100% / 5);
+    text-align: center;
+}
+
+#new_hd .hd_nav_box > li > a {
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+#new_hd .hd_nav_box > li > a:hover,
+#new_hd .hd_nav_box > li.active > a {
+    color: #0066da;
+}
+
+@media all and (max-width: 1281px) {
+    #new_hd .hd_nav {
+        display: none;
+    }
+}
+
+/* HEADER NAV END */
+
+/* MOBILE HEADER */
+.mohd_wrap {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
+    z-index: 9;
+    top: 0;
+    right: -100%;
+    -webkit-transition: right 0.3s ease-in-out;
+    -o-transition: right 0.3s ease-in-out;
+    -moz-transition: right 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
+}
+
+.mohd_wrap.active {
+    right: 0;
+}
+
+.mohd_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mohd_area .mohd_top {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #000;
+    padding: 20px 30px 40px;
+}
+
+.mohd_area .mohd_top .mohd_logo {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.mohd_area .mohd_top .mohd_logo .logo {
+    width: 160px;
+    height: 50px;
+    background-image: url(../img/logo.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mohd_area .mohd_top .mohd_logo .close_icon {
+    width: 35px;
+    height: 35px;
+    position: relative;
+}
+
+.mohd_area .mohd_top .mohd_logo .close_icon > button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../img/close.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    background-color: transparent;
+}
+
+.mohd_area .mohd_top .mohd_search {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.mohd_area .mohd_top .mohd_my {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: right;
+    -webkit-justify-content: right;
+    -moz-box-pack: right;
+    -ms-flex-pack: right;
+    justify-content: right;
+    gap: 40px;
+    padding-right: 20px;
+}
+
+.mohd_area .mohd_top .mohd_my > li {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.mohd_area .mohd_top .mohd_my > li::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mohd_area .mohd_top .mohd_my > li:last-of-type::after {
+    content: none;
+}
+
+.mohd_area .mohd_top .mohd_my > li > a {
+    font-size: 0.9375rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.mohd_area .mohd_nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mohd_area .mohd_nav .mohd_nav_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mohd_area .mohd_nav .mohd_nav_box > li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+.mohd_area .mohd_nav .mohd_nav_box > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+@media all and (max-width: 481px) {
+    .mohd_area .mohd_top {
+        padding: 20px 15px 30px;
+    }
+
+    .mohd_area .mohd_top .mohd_logo .logo {
+        width: 130px;
+        height: 30px;
+    }
+
+    .mohd_area .mohd_top .mohd_logo .close_icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .mohd_area .mohd_top .mohd_my > li > a {
+        font-size: 0.875rem;
+    }
+
+    .mohd_area .mohd_nav .mohd_nav_box > li > a {
+        font-size: 0.9375rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .mohd_area .mohd_top .mohd_logo .logo {
+        width: 120px;
+        height: 25px;
+    }
+
+    .mohd_area .mohd_top .mohd_logo .close_icon > button {
+        width: 24px;
+        height: 24px;
+    }
+
+    .mohd_area .mohd_top .mohd_my > li > a {
+        font-size: 0.8125rem;
+    }
+
+    .mohd_area .mohd_nav .mohd_nav_box > li > a {
+        font-size: 0.875rem;
+    }
+}
+
+/* MOBILE HEADER END */

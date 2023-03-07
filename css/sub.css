@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+/* SUB SECTION */
+#new_sc {
+    width: 100%;
+    height: auto;
+    min-height: -webkit-calc(100vh - 126px);
+    min-height: -moz-calc(100vh - 126px);
+    min-height: calc(100vh - 126px);
+    position: relative;
+}
+
+#new_sc .sc_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_size {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1025px) {
+    #new_sc {
+        min-height: auto;
+    }
+
+    #new_sc .sc_con {
+        padding: 0 30px;
+    }
+}
+
+@media all and (max-width: 481px) {
+    #new_sc .sc_con {
+        padding: 0 15px;
+    }
+}
+
+/* SUB SECTION END */
+
+/* SUB TIT */
+.sub_tit_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+
+.sub_tit_con .sub_tit_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* SUB TIT END */
+
+/* MAIN SEARCH TYPE */
+.search_type_con {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    position: relative;
+    padding-top: 250px;
+    margin: 0 auto;
+}
+
+.search_type_con .search_tit {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.search_type_con .search_tit > h2 {
+    word-break: keep-all;
+}
+
+.search_type_con .search_tit > h2,
+.search_type_con .search_tit > h2 > span {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.search_type_con .search_tit > h2 > span {
+    font-weight: 600;
+}
+
+.search_type_con .main_search_box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.main_search_input {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.main_search_input .main_select {
+    width: 180px;
+    height: 100%;
+    position: relative;
+}
+
+.main_search_input .main_select::after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #989898;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.main_search_input .main_select > select {
+    width: 100%;
+    height: 100%;
+    border-radius: 5rem 0 0 5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0px 15px 0px 55px;
+    border: 1px solid #989898;
+    border-right: 0;
+    position: relative;
+    background: url(../img/main_select_arrows.png) no-repeat 30px 50%;
+    -webkit-background-size: 13px 13px;
+    background-size: 13px;
+}
+
+.main_search_input .main_input {
+    width: -webkit-calc(100% - 180px);
+    width: -moz-calc(100% - 180px);
+    width: calc(100% - 180px);
+    height: 100%;
+    position: relative;
+}
+
+.main_search_input .main_input > input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #989898;
+    border-left: 0;
+    border-radius: 0 5rem 5rem 0;
+    padding: 0 100px 0 30px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.main_search_input .main_input > input::-webkit-input-placeholder {
+    font-size: 1rem;
+}
+
+.main_search_input .main_input > input:-moz-placeholder {
+    font-size: 1rem;
+}
+
+.main_search_input .main_input > input::-moz-placeholder {
+    font-size: 1rem;
+}
+
+.main_search_input .main_input > input:-ms-input-placeholder {
+    font-size: 1rem;
+}
+
+.main_search_input .main_input > input::-ms-input-placeholder {
+    font-size: 1rem;
+}
+
+.main_search_input .main_input > input::placeholder {
+    font-size: 1rem;
+}
+
+.main_search_input .main_button {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 49%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.main_search_input .main_button > button {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/main_search_icon.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    border: 0;
+}
+
+.main_search_input .main_button:hover {
+    right: 25px;
+}
+
+@media all and (max-width: 1441px) {
+    .search_type_con {
+        max-width: 650px;
+    }
+
+    .search_type_con .search_tit > h2,
+    .search_type_con .search_tit > h2 > span {
+        font-size: 2.0625rem;
+    }
+}
+
+@media all and (max-width: 1025px) {
+    .search_type_con {
+        padding-bottom: 200px;
+    }
+
+    .search_type_con .search_tit > h2,
+    .search_type_con .search_tit > h2 > span {
+        font-size: 1.875rem;
+    }
+}
+
+@media all and (max-width: 885px) {
+    .search_type_con {
+        padding: 100px 0 150px;
+    }
+
+    .search_type_con .search_tit > h2,
+    .search_type_con .search_tit > h2 > span {
+        font-size: 1.6875rem;
+    }
+
+    .main_search_input {
+        display: block;
+        height: auto;
+    }
+
+    .main_search_input .main_select {
+        width: 100%;
+        max-width: 190px;
+        height: 55px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .main_search_input .main_select > select {
+        border-right: 1px solid #989898;
+        border-radius: 5rem;
+    }
+
+    .main_search_input .main_select::after {
+        content: none;
+    }
+
+    .main_search_input .main_input {
+        width: 100%;
+        height: 55px;
+    }
+
+    .main_search_input .main_input > input {
+        border-left: 1px solid #989898;
+        border-radius: 5rem;
+    }
+
+    .main_search_input .main_input > input::-webkit-input-placeholder {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input > input:-moz-placeholder {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input > input::-moz-placeholder {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input > input:-ms-input-placeholder {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input > input::-ms-input-placeholder {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input > input::placeholder {
+        font-size: 0.875rem;
+    }
+}
+
+@media all and (max-width: 481px) {
+    .search_type_con .search_tit > h2,
+    .search_type_con .search_tit > h2 > span {
+        font-size: 1.25rem;
+    }
+
+    .main_search_input .main_select {
+        height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .main_search_input .main_select > select {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input {
+        height: 45px;
+    }
+
+    .main_search_input .main_input > input {
+        font-size: 0.875rem;
+    }
+
+    .main_search_input .main_input > input::-webkit-input-placeholder {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_input > input:-moz-placeholder {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_input > input::-moz-placeholder {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_input > input:-ms-input-placeholder {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_input > input::-ms-input-placeholder {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_input > input::placeholder {
+        font-size: 0.8125rem;
+    }
+}
+
+@media all and (max-width: 376px) {
+    .search_type_con .search_tit {
+        margin-bottom: 25px;
+    }
+
+    .search_type_con .search_tit > h2, .search_type_con .search_tit > h2 > span {
+        font-size: 1rem;
+    }
+
+    .main_search_input .main_select,
+    .main_search_input .main_input {
+        height: 40px;
+    }
+
+    .main_search_input .main_select > select {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_input > input {
+        font-size: 0.8125rem;
+    }
+
+    .main_search_input .main_button {
+        width: 20px;
+        height: 20px;
+        right: 20px;
+    }
+}
+
+/* MAIN SEARCH TYPE END */
