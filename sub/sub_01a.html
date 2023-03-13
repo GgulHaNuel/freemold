@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="Keywords" content="프리몰드, FREEMOLD, COSMETIC, SKIN CARE, MAKE UP, TUBE, SUSTAINABLE, DESIGN, " />
+        <meta name="Description" content="" />
+        <meta name="Robots" content="All" />
+        <meta name="Date" content="2023-03-02+09:00" />
+        <meta http-equiv="Subject" content="FREEMOLD" />
+        <meta http-equiv="Title" content="FREEMOLD" />
+        <meta http-equiv="Author" content="JOY" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="FREEMOLD" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <title>FREEMOLD</title>
+        <!--CSS-->
+        <link rel="stylesheet" href="../css/fonts.css" type="text/css" />
+        <link rel="stylesheet" href="../css/all.css" type="text/css" />
+        <link rel="stylesheet" href="../css/header.css" type="text/css" />
+        <link rel="stylesheet" href="../css/footer.css" type="text/css" />
+        <link rel="stylesheet" href="../css/sub.css" type="text/css" />
+        <link rel="stylesheet" href="../css/login.css" type="text/css" />
+        <link rel="stylesheet" href="../css/board.css" type="text/css" />
+        <link rel="stylesheet" href="../css/setting.css" type="text/css" />
+        <!--JQUERY-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <!--LOCOMOTIVE-->
+        <link rel="stylesheet" href="../locomotive/locomotive-scroll.css" type="text/css" />
+        <script src="../locomotive/locomotive-scroll.min.js"></script>
+        <!--GSAP-->
+        <script src="../gsap/gsap.min.js"></script>
+        <script src="../gsap/ScrollTrigger.min.js"></script>
+        <!--SLICK-->
+        <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+        <script src="../slick/slick.min.js"></script>
+        <!--SWIPER-->
+        <link rel="stylesheet" type="text/css" href="../swiper/swiper-bundle.min.css" />
+        <script src="../swiper/swiper-bundle.min.js"></script>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header id="new_hd" class="hd_wrap">
+            <div class="hd_area">
+                <div class="hd_con">
+                    <div class="hd_top">
+                        <ul class="search_layout">
+                            <!--로그인전-->
+                            <li class="top_txt" style="display: none">
+                                <p>cosmetic<br />container</p>
+                            </li>
+                            <!--로그인전 END-->
+                            <!--로그인후-->
+                            <li class="all_search_box">
+                                <div class="all_search_input">
+                                    <input type="text" />
+                                    <span></span>
+                                </div>
+                            </li>
+                            <!--로그인후 END-->
+                        </ul>
+                        <div class="hd_logo">
+                            <a href="../index.html"></a>
+                        </div>
+                        <ul class="login_box">
+                            <li><a href="sub_07b.html">My page</a></li>
+                            <li><a href="#">logout</a></li>
+                        </ul>
+                        <div class="mo_bars">
+                            <button type="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="hd_nav">
+                        <ul class="hd_nav_box">
+                            <!--로그인후 SHOW-->
+                            <li><a href="../sub/sub_01a.html">SKIN CARE</a></li>
+                            <!--로그인후 SHOW-->
+                            <li><a href="../sub/sub_02a.html">MAKE UP</a></li>
+                            <li><a href="../sub/sub_03a.html">TUBE</a></li>
+                            <li><a href="../sub/sub_04a.html">SUSTAINABLE</a></li>
+                            <li><a href="../sub/sub_05a.html">DESIGN</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--HEADER END-->
+        <!--MO HEADER-->
+        <div class="mohd_wrap">
+            <div class="mohd_area">
+                <div class="mohd_top">
+                    <div class="mohd_logo">
+                        <div class="logo"><a href="../index.html"></a></div>
+                        <div class="close_icon"><button></button></div>
+                    </div>
+                    <div class="mohd_search">
+                        <div class="all_search_input all_search_input_mo">
+                            <input type="text" />
+                            <span></span>
+                        </div>
+                    </div>
+                    <ul class="mohd_my">
+                        <li><a href="../login.html">Login</a></li>
+                        <li><a href="sub_07b.html">my page</a></li>
+                        <li><a href="../join.html">Sign up</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <nav class="mohd_nav">
+                    <ul class="mohd_nav_box">
+                        <!--로그인후 SHOW-->
+                        <li>
+                            <a href="../sub/sub_01a.html">SKIN CARE</a>
+                        </li>
+                        <!--로그인후 SHOW-->
+                        <li class="active">
+                            <a href="../sub/sub_02a.html">MAKE UP</a>
+                        </li>
+                        <li>
+                            <a href="../sub/sub_03a.html">TUBE</a>
+                        </li>
+                        <li>
+                            <a href="../sub/sub_04a.html">SUSTAINABLE</a>
+                        </li>
+                        <li>
+                            <a href="../sub/sub_05a.html">DESIGN</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--MO HEADER END-->
+        <div class="">
+            <!--SECTION-->
+            <section id="new_sc" class="sc_wrap">
+                <div class="sc_area">
+                    <div class="sc_con">
+                        <!--SUB TIT-->
+                        <div class="sub_tit_con">
+                            <div class="sub_tit_box sub_tit_box2">
+                                <h2>SKIN CARE</h2>
+                            </div>
+                        </div>
+                        <!--SUB TIT END-->
+                        <!--SUB SKINITEM-->
+                        <div class="skin_item_con">
+                            <ul class="skin_item_box">
+                                <li class="skin_item">
+                                    <div class="skin_h2"><h2>타입</h2></div>
+                                    <div class="skin_cont">
+                                        <div class="skin_all"><a href="#">ALL</a></div>
+                                        <div class="skin_slider text_slider swiper">
+                                            <ul class="text_slider_box swiper-wrapper">
+                                                <li class="swiper-slide active"><a href="#">사출</a></li>
+                                                <li class="swiper-slide"><a href="#">에어리스</a></li>
+                                                <li class="swiper-slide"><a href="#">이중용기</a></li>
+                                                <li class="swiper-slide"><a href="#">인젝션브로우</a></li>
+                                                <li class="swiper-slide"><a href="#">다이렉트브로우</a></li>
+                                                <li class="swiper-slide"><a href="#">헤비브로우</a></li>
+                                                <li class="swiper-slide"><a href="#">다층브로우</a></li>
+                                                <li class="swiper-slide"><a href="#">초자</a></li>
+                                                <li class="swiper-slide"><a href="#">ETC</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skin_item">
+                                    <div class="skin_h2"><h2>용량</h2></div>
+                                    <div class="skin_cont">
+                                        <div class="skin_all"><a href="#">ALL</a></div>
+                                        <div class="skin_slider text_slider swiper">
+                                            <ul class="text_slider_box swiper-wrapper">
+                                                <li class="swiper-slide active"><a href="#">10ml</a></li>
+                                                <li class="swiper-slide"><a href="#">30ml</a></li>
+                                                <li class="swiper-slide"><a href="#">50ml</a></li>
+                                                <li class="swiper-slide"><a href="#">80ml</a></li>
+                                                <li class="swiper-slide"><a href="#">100ml</a></li>
+                                                <li class="swiper-slide"><a href="#">120ml</a></li>
+                                                <li class="swiper-slide"><a href="#">150ml</a></li>
+                                                <li class="swiper-slide"><a href="#">180ml</a></li>
+                                                <li class="swiper-slide"><a href="#">200ml</a></li>
+                                                <li class="swiper-slide"><a href="#">250ml</a></li>
+                                                <li class="swiper-slide"><a href="#">300ml</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skin_item">
+                                    <div class="skin_h2"><h2>형태</h2></div>
+                                    <div class="skin_cont">
+                                        <div class="skin_all"><a href="#">ALL</a></div>
+                                        <div class="skin_slider text_slider swiper">
+                                            <ul class="formskin_slider_box swiper-wrapper">
+                                                <li class="swiper-slide active"><a href="#" class="form_01"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_02"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_03"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_04"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_05"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_06"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_07"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_08"></a></li>
+                                                <li class="swiper-slide"><a href="#" class="form_09"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="skin_item">
+                                    <div class="skin_h2"><h2>용도</h2></div>
+                                    <div class="skin_cont">
+                                        <div class="skin_all"><a href="#">ALL</a></div>
+                                        <div class="skin_slider text_slider swiper">
+                                            <ul class="text_slider_box swiper-wrapper">
+                                                <li class="swiper-slide active"><a href="#">토너/에멀션</a></li>
+                                                <li class="swiper-slide"><a href="#">크림</a></li>
+                                                <li class="swiper-slide"><a href="#">아이크림</a></li>
+                                                <li class="swiper-slide"><a href="#">에센스</a></li>
+                                                <li class="swiper-slide"><a href="#">앰플</a></li>
+                                                <li class="swiper-slide"><a href="#">미스트</a></li>
+                                                <li class="swiper-slide"><a href="#">선라인</a></li>
+                                                <li class="swiper-slide"><a href="#">기능성</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--SUB SKINITEM END-->
+                        <div class="sc_size">
+                            <!--SKIN CARE-->
+                            <div class="skinboard_con">
+                                <div class="skin_case">
+                                    <p>총 <span>35</span>개의 상품이 있습니다.</p>
+                                </div>
+                                <div class="skinboard_cont">
+                                    <ul class="skinboard_list">
+                                        <li class="skinboard_item">
+                                            <a href="sub_01a-view.html">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                        <li class="skinboard_item">
+                                            <a href="#">
+                                                <div class="skinboard_thumb">
+                                                    <img src="../img/thumb_img_01.png" />
+                                                </div>
+                                                <h2>HL 1234</h2>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--SKIN CARE END-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--SECTION END-->
+            <!--FOOTER-->
+            <footer id="new_ft" class="ft_wrap">
+                <div class="ft_area">
+                    <div class="ft_con">
+                        <div class="ft_txt">
+                            <div class="ft_logo"><a href="#"></a></div>
+                            <ul class="ft_stat">
+                                <li class="info_txt">
+                                    <a href="#">FREEMOLD 소개</a>
+                                    <a href="#">개인정보처리방침</a>
+                                    <a href="#">이메일무단수집거부</a>
+                                </li>
+                                <li class="stat_txt">
+                                    <p><span>TEL.</span> 070-8894-1576</p>
+                                    <p><span>FAX.</span> 02-571-1139</p>
+                                    <p><span>ADD.</span> 서울 성동구 아차산로 17길 48, SKV1센터 1동 1303호</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="copyright_txt">
+                            <p>CopyrightⓒFREEMOLD All Right Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--FOOTER END-->
+        </div>
+        <!--TALK BTN-->
+        <div class="talk_con">
+            <div class="talk_btn">
+                <a href="#">
+                    <img src="../img/talk_icon.png" alt="talk" />
+                </a>
+            </div>
+        </div>
+        <!--TALK BTN END-->
+    </body>
+    <script src="../js/anime.js"></script>
+    <script src="../js/common.js"></script>
+</html>

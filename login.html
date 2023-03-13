@@ -46,6 +46,7 @@
         <script src="swiper/swiper-bundle.min.js"></script>
     </head>
     <body>
+        <!--HEADER-->
         <header id="new_hd" class="hd_wrap">
             <div class="hd_area">
                 <div class="hd_con">
@@ -72,13 +73,20 @@
                             <li><a href="login.html">Login</a></li>
                             <li><a href="join.html">Sign up</a></li>
                         </ul>
+                        <div class="mo_bars">
+                            <button type="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
                     </div>
                     <nav class="hd_nav">
                         <ul class="hd_nav_box">
                             <!--로그인후 SHOW-->
                             <li><a href="sub/sub_01a.html">SKIN CARE</a></li>
                             <!--로그인후 SHOW-->
-                            <li class="active"><a href="sub/sub_02a.html">MAKE UP</a></li>
+                            <li><a href="sub/sub_02a.html">MAKE UP</a></li>
                             <li><a href="sub/sub_03a.html">TUBE</a></li>
                             <li><a href="sub/sub_04a.html">SUSTAINABLE</a></li>
                             <li><a href="sub/sub_05a.html">DESIGN</a></li>
@@ -87,7 +95,52 @@
                 </div>
             </div>
         </header>
+        <!--HEADER END-->
+        <!--MO HEADER-->
+        <div class="mohd_wrap">
+            <div class="mohd_area">
+                <div class="mohd_top">
+                    <div class="mohd_logo">
+                        <div class="logo"><a href="index.html"></a></div>
+                        <div class="close_icon"><button></button></div>
+                    </div>
+                    <div class="mohd_search">
+                        <div class="all_search_input all_search_input_mo">
+                            <input type="text" />
+                            <span></span>
+                        </div>
+                    </div>
+                    <ul class="mohd_my">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="join.html">Sign up</a></li>
+                    </ul>
+                </div>
+                <nav class="mohd_nav">
+                    <ul class="mohd_nav_box">
+                        <!--로그인후 SHOW-->
+                        <li>
+                            <a href="sub/sub_01a.html">SKIN CARE</a>
+                        </li>
+                        <!--로그인후 SHOW-->
+                        <li class="active">
+                            <a href="sub/sub_02a.html">MAKE UP</a>
+                        </li>
+                        <li>
+                            <a href="sub/sub_03a.html">TUBE</a>
+                        </li>
+                        <li>
+                            <a href="sub/sub_04a.html">SUSTAINABLE</a>
+                        </li>
+                        <li>
+                            <a href="sub/sub_05a.html">DESIGN</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--MO HEADER END-->
         <div class="">
+            <!--SECTION-->
             <section id="new_sc" class="sc_wrap">
                 <div class="sc_area">
                     <div class="sc_con">
@@ -99,41 +152,38 @@
                         </div>
                         <!--SUB TIT END-->
                         <div class="sc_size">
-                            <!--MAIN SEARCH TYPE-->
-                            <div class="search_type_con">
-                                <div class="search_tit">
-                                    <h2>원하시는 <span>화장품 용기타입</span>을 검색하세요.</h2>
+                            <!--LOGIN-->
+                            <div class="login_con">
+                                <ul class="login_input_box">
+                                    <li class="login_item">
+                                        <div class="login_h2"><h2>아이디</h2></div>
+                                        <div class="login_input">
+                                            <input type="text" placeholder="아이디를 입력해주세요.">
+                                        </div>
+                                    </li>
+                                    <li class="login_item">
+                                        <div class="login_h2"><h2>비밀번호</h2></div>
+                                        <div class="login_input">
+                                            <input type="text" placeholder="아이디를 입력해주세요.">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="login_submit_btn">
+                                    <button>로그인</button>
                                 </div>
-                                <div class="main_search_box">
-                                    <div class="main_search_input">
-                                        <div class="main_select">
-                                            <select>
-                                                <option>ALL</option>
-                                                <option>사출</option>
-                                                <option>에어리스</option>
-                                                <option>이중용기</option>
-                                                <option>인젝션브로우</option>
-                                                <option>다이렉트브로우</option>
-                                                <option>헤비브로우</option>
-                                                <option>다층브루우</option>
-                                                <option>초자</option>
-                                                <option>ETC</option>
-                                            </select>
-                                        </div>
-                                        <div class="main_input">
-                                            <input type="text" placeholder="검색어를 입력해주세요." />
-                                        </div>
-                                        <div class="main_button">
-                                            <button type="submit"></button>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ul class="login_find_box">
+                                    <li><a href="#">아이디 찾기</a></li>
+                                    <li><a href="#">비밀번호 찾기</a></li>
+                                    <li><a href="#">회원가입</a></li>
+                                </ul>
                             </div>
-                            <!--MAIN SEARCH TYPE END-->
+                            <!--LOGIN END-->
                         </div>
                     </div>
                 </div>
             </section>
+            <!--SECTION END-->
+            <!--FOOTER-->
             <footer id="new_ft" class="ft_wrap">
                 <div class="ft_area">
                     <div class="ft_con">
@@ -158,7 +208,17 @@
                     </div>
                 </div>
             </footer>
+            <!--FOOTER END-->
         </div>
+        <!--TALK BTN-->
+        <div class="talk_con">
+            <div class="talk_btn">
+                <a href="#">
+                    <img src="img/talk_icon.png" alt="talk" />
+                </a>
+            </div>
+        </div>
+        <!--TALK BTN END-->
     </body>
     <script src="js/anime.js"></script>
     <script src="js/common.js"></script>

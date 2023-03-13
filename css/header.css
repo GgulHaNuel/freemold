@@ -19,6 +19,11 @@
     position: relative;
 }
 
+#new_hd.active {
+    position: fixed;
+    z-index: 9;
+}
+
 /* HEADER SETTING END */
 
 /* HEADER TOP */
@@ -268,6 +273,7 @@
     height: auto;
     position: relative;
     border-bottom: 1px solid #000;
+    background-color: #fff;
 }
 
 #new_hd .hd_nav_box {
@@ -276,7 +282,7 @@
     margin: 0 auto;
     height: auto;
     position: relative;
-    padding: 15px 0;
+    padding: 20px 0 5px 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
