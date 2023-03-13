@@ -750,6 +750,7 @@
 
     .skin_stat_box {
         width: 100%;
+        overflow: inherit;
     }
 
     .skin_stat_box .stat_tit {
