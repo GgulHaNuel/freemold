@@ -65,6 +65,11 @@ $(function () {
                         slidesToShow: 3,
                     }
                 },{
+                    breakpoint: 885,
+                    settings: {
+                        slidesToShow: 5,
+                    }
+                },{
                     breakpoint: 481,
                     settings: {
                         slidesToShow: 4,
